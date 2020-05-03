@@ -1,0 +1,417 @@
+﻿
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+
+body {
+          font-family:'Open Sans', sans-serif;
+    font-size:14px;
+    background-image:url(../img/sativa.png);
+}
+
+@font-face {
+    font-family: "pepsi";
+    src: url(../fonts/pepsi/pepsi_pl-webfont.woff2) format('woff2'),
+    url(../fonts/pepsi/pepsi_pl-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+}
+
+h1 {
+    line-height:50px;
+    font-weight:900;
+    font-size:40px;
+    padding:80px 20px 5px 20px;
+    text-transform:uppercase;
+    color:rgba(0, 121, 138, 1);
+}
+
+
+.pad-adjust {
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+
+.text-center {
+    text-align:center;
+}
+
+h2 {
+    line-height:50px;
+}
+h3 {
+    line-height:30px;
+    padding-bottom:20px;
+}
+h4 {
+   padding-top: 25px;
+    line-height: 40px;
+    padding-bottom: 0;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+p {
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:15px;
+}
+
+.space-free {
+    height:100px;
+}
+
+.g-pad-bottom {
+    padding-bottom:40px;
+}
+.g-pad-bottom p {
+    text-indent: 50px;
+    font-size: 19px;
+    text-align: justify;
+}
+
+section {
+    padding-top:20px;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.c-blue {
+   background-color:rgba(0, 121, 138, 1);
+   color:#fff;
+}
+.form-control {
+        background-color: rgba(255, 255, 255, 0);
+}
+/*=======================================
+    HOME SECTION STYLES
+==================================================*/
+
+
+.head-btn-one {
+    background-color: rgba(252, 64, 101, 1);
+    border: 0px solid #fff;
+
+}
+#home-sec {
+    background-color:rgba(0, 121, 138, 1);
+}
+#home {
+    padding-top:180px;
+    padding-bottom:260px;
+    color:#fff;
+}
+.head-main {
+    font-size:80px ;
+    font-weight:400;
+    font-family: "pepsi", 'Open Sans', sans-serif;
+}
+.head-main span {
+    font-size: 55px;
+}
+.head-sub-main {
+    font-size:32px ;
+    font-weight:600;
+    padding:5px 20px 10px 20px;
+}
+.head-last {
+    font-size:20px ;
+    font-weight:300;
+    padding:5px 20px 20px 20px;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+border-radius: 0px; 
+
+}
+/* ===========================================================
+   NAVBAR CHANGES   
+   ============================================================*/
+.navbar {
+	font-size: 14px;
+}
+.navbar-right {
+    margin: 4px;
+}
+
+.navbar-inverse {
+	background: #000000;
+}
+.navbar-nav.navbar-right:last-child {
+     margin-top: 4px !important;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #ffffff;
+    height: 58px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 9px 15px;
+}
+.navbar-inverse .navbar-brand img {
+    height: 100%;
+}
+.navbar-inverse :hover .navbar-brand:hover {
+	color: #ffffff;	
+}
+.navbar-nav.navbar-right:last-child {
+    margin-top: 25px;
+}
+.navbar-inverse .navbar-nav > li > a {
+color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: rgba(0, 121, 138, 1);
+    transition: 0.4s;
+}
+
+/*=======================================
+    SERVICES SECTION STYLES
+==================================================*/
+
+#services-sec a {
+    text-decoration: none;
+    color: #2F99D0;
+}
+#services-sec a:hover {
+    color: #00798A;
+    transition: 0.4s;
+}
+#services-sec .span1 {
+    font-weight: 900;
+    color: #000000;
+}
+#services-sec .span2 {
+    text-indent: 50px;
+    display: inline-block;
+}
+#my_ul_list {
+    font-size: 22px;
+    list-style: none;
+}
+#my_ul_list i {
+    font-size: 16px;
+    padding-right: 10px;
+}
+#my_ul_list i .fa {
+    display: block;
+}
+.services_h2 {
+    padding-left: 40px;
+    color: #00798A;
+}
+
+/*=======================================
+    PRICE SECTION STYLES
+==================================================*/
+
+.plan {
+    background: #D8D8D8;
+    padding: 0 0 15px 0;
+    margin: 30px 0px;
+    list-style: none;
+    text-align: center;
+  
+}
+
+.plan li {
+   padding: 25px 0px;
+color: #858585;
+font-size: 25px;
+}
+
+.plan li.plan-head {
+    background-color:#000!important;
+   padding: 15px 0px;
+color: #FFFFFF;
+line-height: 20px;
+font-size: 20px;
+font-weight: 600;
+border: none;
+   }
+
+.plan li.main-price {
+   padding: 25px 0px;
+background-color:rgba(31, 138, 99, 1);
+color: #fff;
+border: none;
+font-weight: 900;
+font-size: 45px;
+}
+
+
+/*=======================================
+    SERVICE SECTION STYLES
+==================================================*/
+#services-inner {
+    padding-top:50px;
+    padding-bottom:40px;
+}
+
+.service-div {
+	width: 100%;
+	min-height: 100px;
+	background-color: rgba(0, 121, 138, 1);
+	box-shadow: none;
+	border: 0;
+    padding:20px;
+    margin-bottom:30px;
+    color:#fff;
+    font-size:16px;
+    padding-top: 45px;
+}
+.service-div > i {
+    color:#fff;
+}
+
+/*=======================================
+    STATS SECTION STYLES
+==================================================*/
+.stats-div {
+    text-align:center;
+    width: 100%;
+    min-height: 100px;
+    padding: 30px 20px 30px 20px;
+}
+
+.stats-div > h3 {
+    font-size:60px;
+    font-weight:900;
+}
+.provide{
+    padding: 40px 20px 40px 20px;
+}
+.provide h3 {
+    font-size: 43px !important;
+    padding-bottom: 40px !important;
+}
+
+/*=======================================
+    CONTACT STYLES
+==================================================*/
+
+#contact-sec {
+    margin-bottom: 60px!important;
+}
+textarea {
+    height: 120px !important;
+}
+.address {
+    font-size: 16px;
+}
+
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+
+#footer {
+    background-color:#000;
+    color:#fff;
+    padding:20px 50px 20px 50px;
+    text-align:right;
+}
+
+/*=======================================
+    MEDIA QUERIES
+==================================================*/
+
+@media(max-width:767px){
+    #home {
+        padding-top: 130px;
+        padding-bottom: 150px;
+    }
+    .head-main {
+        font-size: 40px;
+    }
+    .head-main span {
+        font-size: 28px;
+    }
+    .head-sub-main {
+        font-size: 21px;
+        padding: 5px 10px 10px 10px;
+    }
+    h2 {
+        line-height: 40px;
+    }
+    h1 {
+        line-height: 50px;
+        font-weight: 900;
+        font-size: 30px;
+        padding: 45px 20px 5px 20px;
+        text-transform: uppercase;
+        color: rgba(0, 121, 138, 1);
+    }
+    .g-pad-bottom p {
+        text-indent: 50px;
+        font-size: 15px;
+    }
+    p {
+        line-height: 26px;
+    }
+    #my_ul_list {
+        font-size: 20px;
+    }
+    .stats-div {
+        padding: 20px;
+    }
+    .stats-div > h3 {
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 30px;
+        padding-bottom: 0px;
+    }
+    .provide h3 {
+        font-size: 38px !important;
+        padding-bottom: 40px !important;
+        line-height: 50px;
+    }
+}
+
+
+@media(min-width:768px) and (max-width:991px){
+    .jumbotron {
+        background-color: green;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
